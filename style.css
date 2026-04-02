@@ -1,0 +1,67 @@
+/* Cambia la letra y el fondo de toda la página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: beige;
+  margin: 0;
+  padding: 0;
+}
+
+/* Caja principal */
+.contenedor {
+  width: 80%;
+  max-width: 700px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px gray;
+  text-align: center;
+}
+
+/* Título principal */
+h1 {
+  color: green;
+  margin-bottom: 10px;
+}
+
+/* Nombre */
+.nombre {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+/* Subtítulo */
+h2 {
+  color: darkblue;
+  margin-bottom: 15px;
+}
+
+/* Lista */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Espacio entre trabajos */
+li {
+  margin: 10px 0;
+}
+
+/* Botones o enlaces */
+a {
+  display: block;
+  background-color: lightblue;
+  color: darkblue;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* Cambio cuando paso el mouse */
+a:hover {
+  background-color: green;
+  color: white;
+}
